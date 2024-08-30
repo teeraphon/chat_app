@@ -1,0 +1,56 @@
+[
+  {
+    "prod_id": 1,
+    "prod": "moisturizer",
+    "brand": "Aveeno",
+    "description": "for dry skin"
+  },
+  {
+    "prod_id": 2,
+    "prod": "foundation",
+    "brand": "Maybelline",
+    "description": "medium coverage"
+  },
+  {
+    "prod_id": 3,
+    "prod": "moisturizer",
+    "brand": "CeraVe",
+    "description": "for dry skin"
+  },
+  {
+    "prod_id": 4,
+    "prod": "nail polish",
+    "brand": "OPI",
+    "description": "raspberry red"
+  },
+  {
+    "prod_id": 5,
+    "prod": "concealer",
+    "brand": "Chanel",
+    "description": "medium coverage"
+  },
+  {
+    "prod_id": 6,
+    "prod": "moisturizer",
+    "brand": "Ole Henkrisen",
+    "description": "for oily skin"
+  },
+  {
+    "prod_id": 7,
+    "prod": "moisturizer",
+    "brand": "CeraVe",
+    "description": "for normal to dry skin"
+  },
+  {
+    "prod_id": 8,
+    "prod": "moisturizer",
+    "brand": "First Aid Beauty",
+    "description": "for dry skin"
+  },
+  {
+    "prod_id": 9,
+    "prod": "makeup sponge",
+    "brand": "Sephora",
+    "description": "super-soft, exclusive, latex-free foam"
+  }
+]
