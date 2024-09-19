@@ -1,0 +1,62 @@
+[
+  {
+    "store_id": 1,
+    "city": "Bangkok",
+    "name": "Central Embassy",
+    "address": "1031 Central Embassy, L2 Floor,Unit L2-21, Ploenchit Rd.,Lumpini, Pathumwan, Bangkok 10330"
+  },
+  {
+    "store_id": 2,
+    "city": "Bangkok",
+    "name": "CentralPlaza Ladprao",
+    "address": "1693 CentralPlaza Ladprao, Level 2, Unit 217 Phahonyothin Rd, Chatuchak Sub-district , Chatuchak District, Bangkok"
+  },
+  {
+    "store_id": 3,
+    "city": "Bangkok",
+    "name": "CentralWorld",
+    "address": "Central World, 2nd Floor,Unit 4,4/1-2,4/4, Eden zone,Ratchadamri Road, Patumwan, Bangkok 10330"
+  },
+  {
+    "store_id": 4,
+    "city": "Bangkok",
+    "name": "EmQuartier",
+    "address": "689 Emquartier, Ground Floor, Unit GB01, Sukhumvit Rd., Wattana, Bangkok 10110"
+  },
+  {
+    "store_id": 5,
+    "city": "Nonthaburi",
+    "name": "CentralPlaza Westgate",
+    "address": "199, 199/1-2 CentralPlaza Westgate, Unit 116-117, Level 1, Rattanathibet Rd., Sao Thong Hin Sub-district, Bang Yai"
+  },
+  {
+    "store_id": 6,
+    "city": "Pathumthani",
+    "name": "Zpell",
+    "address": "94 Future Park Rangsit, Unit PL2.1.SHP011 Paholyothin Road, Prachathipat, Thanyaburi, Pathumthani 12130"
+  },
+  {
+    "store_id": 7,
+    "city": "Phuket",
+    "name": "Central Phuket",
+    "address": "74,75 Moo 5, CentralFestival Phuket, Level 1, Unit 134-136 Vichit Sub-District, Amphur Muang Phuket"
+  },
+  {
+    "store_id": 8,
+    "city": "Samuthprakarn",
+    "name": "Mega Bangna",
+    "address": "39 Moo 6, Mega Banga Mall, 1st Floor,Lot No. 1324, 1326, 1328, Bangna-Trad Rd., Km.8 Bangkaew, Bangplee, Samutprakarn 10540"
+  },
+  {
+    "store_id": 9,
+    "city": "Bangkok",
+    "name": "ICONSIAM",
+    "address": "299 ICONSIAM, M floor, Room 05-06, Charoen Nakorn Road, Khwaeng Klongtonsai, Khet Klongsan, Bangkok 10600"
+  },
+  {
+    "store_id": 10,
+    "city": "Bangkok",
+    "name": "Siam Center (FLAGSHIP)",
+    "address": "979 Siam Center, Level 1, Unit 108-109, Rama 1 Road, Pathumwan, Bangkok 10330"
+  }
+]
