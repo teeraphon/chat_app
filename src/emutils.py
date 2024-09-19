@@ -212,6 +212,7 @@ def calculate_embedding_distances(text: str, collection_name: str, max_result: i
     if record_count != 0:
         # Display the results
         print(f"Top {max_result} results for query: '{text}'")
+        print(df_final_results)
     else:
         print(f"Relavant records is : {record_count}")
 

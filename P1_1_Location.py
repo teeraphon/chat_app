@@ -72,6 +72,9 @@ if location_data:
     current_location = (current_lat,current_lng)
     current_address = geocoding_la_lon(current_location)
 
+    if "current_address" not in st.session_state:
+        st.session_state.current_address = current_address
+
     # Display location data
     st.success(f"""LATITUDE: {current_lat}, LONGITUDE: {current_lng} \n
                    ADDRESS : {current_address}""")
