@@ -27,7 +27,7 @@ openai_ef = OpenAIEmbeddingFunction(
 test_input = "This is a test input."
 try:
     embedding = openai_ef(test_input)
-    print("Embedding successful:", embedding[:5])  # Print first few elements of the embedding
+    # print("Embedding successful:", embedding[:5])  # Print first few elements of the embedding
 except Exception as e:
     print(f"Error generating embedding: {e}")
 

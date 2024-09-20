@@ -2799,3 +2799,141 @@ ValueError: Collection order_collection does not exist.
 [36mDEBUG[0m:    [20-09-2024 02:17:22] Stopping component OpenTelemetryClient
 [32mINFO[0m:     [20-09-2024 02:17:22] Application shutdown complete.
 [32mINFO[0m:     [20-09-2024 02:17:22] Finished server process [[36m8536[0m]
+[33mWARNING[0m:  [20-09-2024 08:37:26] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-09-2024 08:37:27] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component System
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component SqliteDB
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component Posthog
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-09-2024 08:37:27] Starting component SegmentAPI
+[32mINFO[0m:     [20-09-2024 08:37:27] Started server process [[36m19440[0m]
+[32mINFO[0m:     [20-09-2024 08:37:27] Waiting for application startup.
+[32mINFO[0m:     [20-09-2024 08:37:27] Application startup complete.
+[32mINFO[0m:     [20-09-2024 08:37:27] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-09-2024 08:39:09] ::1:52315 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:09] ::1:52315 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:11] ::1:52319 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:11] ::1:52319 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:21] ::1:52334 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:21] ::1:52334 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:21] ::1:52334 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-09-2024 08:39:22] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-09-2024 08:39:22] ::1:52334 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:39:22] ::1:52334 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-09-2024 08:39:22] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-09-2024 08:39:23] ::1:52334 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:08] ::1:52352 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:08] ::1:52352 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:08] ::1:52352 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:09] ::1:52352 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:09] ::1:52352 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:09] ::1:52352 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:22] ::1:52356 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:22] ::1:52356 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:22] ::1:52356 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:23] ::1:52356 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:23] ::1:52356 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 08:40:44] ::1:52363 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 10:35:15] ::1:57181 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 10:35:15] ::1:57181 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 10:37:56] ::1:57248 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 10:37:56] ::1:57248 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 12:45:46] Shutting down
+[32mINFO[0m:     [20-09-2024 12:45:46] Waiting for application shutdown.
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component System
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component SegmentAPI
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component Posthog
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component SqliteDB
+[36mDEBUG[0m:    [20-09-2024 12:45:46] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [20-09-2024 12:45:46] Application shutdown complete.
+[32mINFO[0m:     [20-09-2024 12:45:46] Finished server process [[36m19440[0m]
+[33mWARNING[0m:  [20-09-2024 12:51:21] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-09-2024 12:51:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component System
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component SqliteDB
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component Posthog
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-09-2024 12:51:22] Starting component SegmentAPI
+[32mINFO[0m:     [20-09-2024 12:51:22] Started server process [[36m13896[0m]
+[32mINFO[0m:     [20-09-2024 12:51:22] Waiting for application startup.
+[32mINFO[0m:     [20-09-2024 12:51:22] Application startup complete.
+[32mINFO[0m:     [20-09-2024 12:51:22] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-09-2024 13:11:08] ::1:50358 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:08] ::1:50358 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:09] ::1:50361 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:09] ::1:50361 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:39] ::1:50376 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:39] ::1:50376 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:39] ::1:50376 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-09-2024 13:11:39] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-09-2024 13:11:39] ::1:50376 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:11:39] ::1:50376 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-09-2024 13:11:39] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-09-2024 13:11:39] ::1:50376 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:15] ::1:50387 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:15] ::1:50387 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:15] ::1:50387 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:16] ::1:50387 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:16] ::1:50387 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:16] ::1:50387 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:47] ::1:50392 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:47] ::1:50392 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:47] ::1:50392 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:47] ::1:50392 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:47] ::1:50392 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 13:12:47] ::1:50392 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:39:57] ::1:52051 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:39:57] ::1:52051 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:39:57] ::1:52051 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:39:57] ::1:52051 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:39:57] ::1:52051 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:39:57] ::1:52051 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:40:25] ::1:52086 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:40:25] ::1:52086 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:40:25] ::1:52086 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:40:26] ::1:52086 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:40:26] ::1:52086 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:40:26] ::1:52086 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:11] ::1:52100 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:11] ::1:52100 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:29] ::1:52123 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:29] ::1:52123 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:29] ::1:52123 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:29] ::1:52123 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:29] ::1:52123 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:30] ::1:52123 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:49] ::1:52157 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:49] ::1:52157 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:49] ::1:52157 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:49] ::1:52157 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:49] ::1:52157 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:41:50] ::1:52157 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:05] ::1:52166 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:05] ::1:52166 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:11] ::1:52171 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:11] ::1:52171 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:11] ::1:52171 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:12] ::1:52171 - "POST /api/v1/collections/bc28ecb9-fc5a-4bd0-9ac4-717c98ea5183/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:12] ::1:52171 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 14:42:33] ::1:52174 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:34:53] Shutting down
+[32mINFO[0m:     [20-09-2024 20:34:53] Waiting for application shutdown.
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component System
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component SegmentAPI
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component Posthog
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component SqliteDB
+[36mDEBUG[0m:    [20-09-2024 20:34:53] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [20-09-2024 20:34:53] Application shutdown complete.
+[32mINFO[0m:     [20-09-2024 20:34:53] Finished server process [[36m13896[0m]
