@@ -2978,3 +2978,16 @@ ValueError: Collection order_collection does not exist.
 [32mINFO[0m:     [30-09-2024 22:02:14] ::1:62069 - "POST /api/v1/collections/69ea2f00-4b89-498f-b548-ba9ac649d9b3/get HTTP/1.1" 200
 [32mINFO[0m:     [30-09-2024 22:03:54] ::1:62164 - "GET /api/v1/collections/product_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
 [32mINFO[0m:     [30-09-2024 22:03:54] ::1:62164 - "GET /api/v1/collections/order_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-09-2024 22:08:50] Shutting down
+[32mINFO[0m:     [30-09-2024 22:08:50] Waiting for application shutdown.
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component System
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component SegmentAPI
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component Posthog
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component SqliteDB
+[36mDEBUG[0m:    [30-09-2024 22:08:50] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [30-09-2024 22:08:50] Application shutdown complete.
+[32mINFO[0m:     [30-09-2024 22:08:50] Finished server process [[36m11752[0m]
